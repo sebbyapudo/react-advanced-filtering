@@ -1,6 +1,18 @@
+import Navigation from '../src/Navigation/Nav.js';
+import Products from '../src/Products/Products.js';
+import Recommended from '../src/Recommended/Recommended.js'
+import Sidebar from './Sidebar/Sidebar.js';
+
 function App() {
   return (
-    <h1>Hello World</h1>
+    <>
+      <Sidebar />
+      <Navigation />
+      <Recommended /> 
+      <Products />
+      
+    </>
+    
   );
 }
 
